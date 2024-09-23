@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "Coldplay";
+  src: url(./font/Louize-RWXWNWK6.woff);
+}
+
+body {
+  background-color: #003a6f;
+  color: white;
+  font-family: "Coldplay";
+  margin: 0;
+  max-width: 100%;
+}
+
+header img {
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+  margin-top: 50px;
+  max-width: 100%;
+}
+
+.index {
+  font-size: x-large;
+  margin-top: 0;
+  text-align: left;
+  margin-left: 0;
+  line-height: 1rem;
+}
+
+.moons {
+  width: 150px;
+  transform: translateY(-50%);
+  position:fixed;
+  margin-left: 88%;
+  display: block;
+}
+header nav{
+  display: block;
+  font-size: small;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  background-color: #003a6f;
+  width: 100%;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  font-family: "coldplay";
+  display: inline-block;
+  padding: 15px;
+}
+.index:hover {
+  color: orange;
+  transition: 0.3s all;
+}
+.Biografia:hover {
+  color: greenyellow;
+  transition: 0.3s all;
+}
+.discografia:hover {
+  color: aqua;
+  transition: 0.3s all;
+}
+.single:hover {
+  color: gold;
+  transition: 0.3s all;
+}
+.datas:hover {
+  color: pink;
+  transition: 0.3s all;
+}
+.contato:hover {
+  color: blueviolet;
+  transition: 0.3s all;
+}
+
+h3 {
+  margin: 20px;
+  text-align: center;
+}
+
+main {
+  margin: 20px;
+  text-align: justify;
+}
+iframe {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+form [type="submit"] {
+  height: 50px;
+  width: 30%;
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+input {
+  margin-top: 20px;
+  height: 10px;
+  padding: 20px;
+  border-radius: 15px;
+  border: none;
+  font-size: 15px;
+  box-shadow: 1px 1px 6px violet;
+}
+
+main ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+main li {
+  margin-bottom: 20px;
+}
+
+strong {
+  color: aquamarine;
+  font-weight: bold;
+}
+h3 {
+  color: violet;
+  font-weight: 700;
+}
+/* Estilo para telas pequenas */
+@media (max-width: 600px) {
+    body {
+        background-color: #003a6f;
+    }
+}
+
+/* Estilo para telas médias */
+@media (min-width: 601px) and (max-width: 1200px) {
+    body {
+        background-color: #003a6f;
+    }
+}
+
+/* Estilo para telas grandes */
+@media (min-width: 1201px) {
+    body {
+        background-color: #003a6f;
+    }
+}
+
